@@ -152,14 +152,17 @@ function showModal(author) {
   const modalContent = document.createElement("div");
   modalContent.className = "modal-content";
 
-  const booksList = author.books.map((book) => `<li>${book}</li>`).join("");
+  const booksList = author.books
+    .map((book) => `<li><a href="#" class="book-link">${book}</a></li>`)
+    .join("");
 
   const authorInfo = `
-    <div>
+    <div class="modal-author-info">
       <img src="${author.image}" alt="${author.name}" class="modal-img" />
-      <h2>${author.name}</h2>
+      <h2>${author.name.toUpperCase()}</h2>
       <h3>${author.title}</h3>
       <p>${author.bio}</p>
+      <h4>WICKHOUSE WORKS</h4>
       <ul>${booksList}</ul>
     </div>`;
 

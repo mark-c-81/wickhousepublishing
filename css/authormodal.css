@@ -13,10 +13,12 @@
 
 .modal-content {
   background-color: #fff;
+  color: #333;
+  font-family: "Oswald", sans-serif;
   padding: 20px;
   border-radius: 4px;
   max-width: 500px;
-  max-height: 80vh;
+  max-height: 90vh;
   overflow-y: auto;
 }
 
@@ -26,6 +28,33 @@
   object-fit: cover;
   border-radius: 4px;
   margin-bottom: 10px;
+}
+
+.modal-author-info p {
+  margin: 1rem 0 1rem 0;
+}
+
+.modal-author-info h4 {
+  margin-bottom: 1rem;
+}
+
+.modal-author-info ul li {
+  margin: 0;
+  padding: 0;
+}
+
+.book-link {
+  transform: none !important;
+  text-decoration: none !important;
+  color: #333 !important;
+}
+
+.book-link:hover {
+  transform: none !important;
+  text-decoration: none !important;
+  color: #333 !important;
+  letter-spacing: normal !important;
+  font-weight: 400;
 }
 
 /* Overlay when modal is open */
