@@ -43,3 +43,20 @@
 body.modal-open {
   overflow: hidden;
 }
+
+/* Media Queries */
+
+@media (max-width: 1280px) {
+}
+
+@media (max-width: 992px) {
+}
+
+@media (max-width: 576px) {
+}
+
+@media (max-width: 375px) {
+}
+
+@media (max-width: 320px) {
+}
