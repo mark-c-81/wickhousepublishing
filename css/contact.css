@@ -60,3 +60,29 @@
 .form-container button:hover {
   background-color: rgb(229, 85, 60);
 }
+
+/* Media Queries */
+
+@media (max-width: 1280px) {
+}
+
+@media (max-width: 992px) {
+}
+
+@media (max-width: 576px) {
+  .contact-container {
+    /* background-image: url("/images/site/type-writer.jpg"); */
+    /* background-size: cover;
+  background-position: center; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+  }
+}
+
+@media (max-width: 375px) {
+}
+
+@media (max-width: 320px) {
+}
