@@ -3,8 +3,9 @@
   flex: 1;
   align-items: center;
   justify-content: center;
-  background-image: url("/images/site/type-writer.jpg");
-  background-size: cover;
+  background-image: url("/images/site/type-writer.webp");
+  background-size: contain;
+  background-repeat: no-repeat;
   background-position: center;
 }
 
