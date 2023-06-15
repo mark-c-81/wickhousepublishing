@@ -75,8 +75,8 @@
   position: absolute;
   width: 100px;
   z-index: 100;
-  top: 1.5rem;
-  right: 1.5rem;
+  top: 1rem;
+  right: 1rem;
 }
 
 .socials {
@@ -211,16 +211,25 @@
   }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 475px) {
+  .card h2 {
+    margin-right: 8rem;
+  }
 }
 
 @media (max-width: 375px) {
   .card-title img {
     position: absolute;
-    width: 50px;
+    width: 70px;
     z-index: 100;
     top: 1rem;
     right: 0.5rem;
+  }
+
+  .card h2 {
+    font-size: 1.5rem;
+    font-weight: 300;
+    letter-spacing: 0.2rem;
   }
 }
 
